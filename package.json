@@ -1,0 +1,12 @@
+{
+  "name": "analytics-system",
+  "version": "1.0.0",
+  "scripts": {
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client start",
+    "install": "(cd client && npm install) && (cd ../server && npm install)",
+    "build": "(cd client && npm run build) && (cd ../server && npm run build)"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

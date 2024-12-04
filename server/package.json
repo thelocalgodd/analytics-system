@@ -1,0 +1,28 @@
+{
+  "name": "analytics-server",
+  "version": "1.0.0",
+  "description": "an express app for website analytics",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
+  "keywords": [
+    "analytics",
+    "service"
+  ],
+  "author": "thelocalgodd",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "request-ip": "^3.3.0",
+    "sniffr": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
